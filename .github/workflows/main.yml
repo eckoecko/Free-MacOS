@@ -11,4 +11,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Setting the Environment Up.
-      run: source set.py
+      run: source setup.sh
